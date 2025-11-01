@@ -25,6 +25,18 @@ const topInspirations = [
     description:
       "Adobe’s Spectrum design system, setting high standards for design consistency, accessibility, and UI guidelines across products.",
   },
+  {
+    name: "Catalyst",
+    url: "https://catalyst.tailwindui.com",
+    description:
+      "Tailwind UI’s Catalyst provides robust, accessible, and production-ready React component patterns to streamline interface development.",
+  },
+  {
+    name: "Tailwind UI Kit",
+    url: "https://tailwindcss.com/plus/ui-kit",
+    description:
+      "Tailwind's official UI Kit, offering a comprehensive collection of professionally designed, fully responsive components to accelerate development.",
+  },
 ]
 
 const otherInspirations = [

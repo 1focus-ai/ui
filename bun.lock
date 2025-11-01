@@ -6,7 +6,7 @@
       "dependencies": {
         "@base-ui-components/react": "^1.0.0-beta.4",
         "@juriadams/env": "^0.0.3",
-        "blade": "3.27.2",
+        "blade": "3.27.3",
         "class-variance-authority": "^0.7.1",
         "clsx": "^2.1.1",
         "lucide-react": "^0.548.0",
@@ -175,7 +175,7 @@
 
     "ansi-styles": ["ansi-styles@4.3.0", "", { "dependencies": { "color-convert": "^2.0.1" } }, "sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg=="],
 
-    "blade": ["blade@3.27.2", "", { "dependencies": { "@dprint/typescript": "0.95.11", "@inquirer/prompts": "7.8.6", "@stefanprobst/rehype-extract-toc": "3.0.0", "@tailwindcss/node": "4.1.16", "@tailwindcss/oxide": "4.1.16", "dotenv": "16.5.0", "gradient-string": "3.0.0", "hive": "2.1.10", "resolve-from": "5.0.0", "rolldown": "1.0.0-beta.44" }, "bin": { "blade": "dist/private/shell/index.js" } }, "sha512-bJTdm7NPtLEC7V6eoEXpnZabmoPfPOVAPhP8wj0VRl79eoWT2HTyGP9dGiBn1TLDhIy8pTZ1IJ4NrRo89cwqOA=="],
+    "blade": ["blade@3.27.3", "", { "dependencies": { "@dprint/typescript": "0.95.11", "@inquirer/prompts": "7.8.6", "@stefanprobst/rehype-extract-toc": "3.0.0", "@tailwindcss/node": "4.1.16", "@tailwindcss/oxide": "4.1.16", "dotenv": "16.5.0", "gradient-string": "3.0.0", "hive": "2.1.10", "resolve-from": "5.0.0", "rolldown": "1.0.0-beta.44" }, "bin": { "blade": "dist/private/shell/index.js" } }, "sha512-oUlJnKcwL3q/J2dYAjnB6bngriTT+AaaXC/TQmKBv+9tQAYVR3s2+a+LM+/OIEZQG5K43UILEkvhwgAoPe+h1g=="],
 
     "bun-types": ["bun-types@1.3.1", "", { "dependencies": { "@types/node": "*" }, "peerDependencies": { "@types/react": "^19" } }, "sha512-NMrcy7smratanWJ2mMXdpatalovtxVggkj11bScuWuiOoXTiKIu2eVS1/7qbyI/4yHedtsn175n4Sm4JcdHLXw=="],
 
