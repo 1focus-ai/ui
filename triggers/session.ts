@@ -1,1 +1,2 @@
-export * from "blade/auth/triggers/session"
+import { getSessionTriggers } from "blade/auth/triggers"
+export default getSessionTriggers()

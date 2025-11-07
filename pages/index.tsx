@@ -2,6 +2,7 @@ import type { ReactNode } from "react"
 
 import { AlertDemo } from "@/components/alert.client.tsx"
 import { AlertDialogClient } from "@/components/alert-dialog.client"
+import { ThemeToggle } from "@/components/theme-toggle.client"
 
 type ComponentStory = {
   name: string
@@ -76,15 +77,20 @@ function StoryCard({ story }: { story: ComponentStory }) {
 export default function Page() {
   return (
     <main className="mx-auto flex w-full max-w-6xl flex-col gap-12 px-6 py-12">
-      <header className="space-y-3 text-balance">
-        <h1 className="text-4xl font-semibold tracking-tight text-foreground sm:text-5xl">
-          Component Previews
-        </h1>
-        <p className="max-w-3xl text-base text-muted-foreground sm:text-lg">
-          A lightweight preview shelf for the interactive primitives in this
-          workspace. Each card bundles a component, its purpose, and how we
-          expect it to feel in context.
-        </p>
+      <header className="flex flex-col gap-4">
+        <div className="flex flex-wrap items-start justify-between gap-4">
+          <div className="space-y-3 text-balance">
+            <h1 className="text-4xl font-semibold tracking-tight text-foreground sm:text-5xl">
+              Component Previews
+            </h1>
+            <p className="max-w-3xl text-base text-muted-foreground sm:text-lg">
+              A lightweight preview shelf for the interactive primitives in this
+              workspace. Each card bundles a component, its purpose, and how we
+              expect it to feel in context.
+            </p>
+          </div>
+          <ThemeToggle className="shrink-0" />
+        </div>
       </header>
       {storyGroups.map((group) => (
         <StorySection key={group.title} group={group} />

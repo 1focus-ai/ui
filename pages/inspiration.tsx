@@ -1,5 +1,7 @@
 import { ExternalLink } from "lucide-react"
 
+import { ThemeToggle } from "@/components/theme-toggle.client"
+
 const topInspirations = [
   {
     name: "Base UI",
@@ -105,14 +107,20 @@ function InspirationSection({
 export default function Inspiration() {
   return (
     <div className="mx-auto flex w-full max-w-5xl flex-col gap-12 px-6 py-16">
-      <header className="flex flex-col gap-3 text-balance">
-        <h1 className="text-4xl font-semibold tracking-tight text-foreground sm:text-5xl">
-          Inspiration
-        </h1>
-        <p className="max-w-3xl text-base text-muted-foreground sm:text-lg">
-          A living collection of projects, libraries, and galleries that shape
-          how we approach interaction, craft, and accessibility across the UI.
-        </p>
+      <header className="flex flex-col gap-4">
+        <div className="flex flex-wrap items-start justify-between gap-4">
+          <div className="space-y-3 text-balance">
+            <h1 className="text-4xl font-semibold tracking-tight text-foreground sm:text-5xl">
+              Inspiration
+            </h1>
+            <p className="max-w-3xl text-base text-muted-foreground sm:text-lg">
+              A living collection of projects, libraries, and galleries that
+              shape how we approach interaction, craft, and accessibility across
+              the UI.
+            </p>
+          </div>
+          <ThemeToggle className="shrink-0" />
+        </div>
       </header>
 
       <InspirationSection title="Top" items={topInspirations} />
